@@ -1,0 +1,15 @@
+.contact_list {
+  overflow: auto;
+  height: 70vh;
+  .contact_list_add {
+    background-color: var(--color-primary);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 40px;
+    margin-right: 70px;
+    svg {
+      color: var(--color-white);
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.edit {
+  padding: 0 16px;
+  .edit_header {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      color: var(--color-secondary);
+      font-size: 24px;
+      text-align: left;
+    }
+    .edit_header_delete {
+      color: var(--color-secondary);
+      font-size: 40px;
+    }
+  }
+  .edit_form {
+    .edit_form_group_button {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .edit_form_group_img {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 20px;
+          width: auto;
+          height: auto;
+          max-width: 60px;
+          max-height: 60px;
+          border-radius: 30px;
+        }
+      }
+      .Mui-disabled {
+        background: var(--color-secondary)!important;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,50 @@
+.edit_form {
+  .react-tel-input {
+    margin-bottom: 10px;
+
+    .form-control {
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid #949494;
+      color: rgba(0, 0, 0, 0.87);
+
+      &:hover {
+        border: none;
+        border-bottom: 2px solid #000;
+      }
+
+      &:focus {
+        color: rgb(133, 133, 133);
+        border: none;
+        border-bottom: 2px solid #a4a4a4;
+        box-shadow: none;
+      }
+
+      &:active {
+        color: rgb(133, 133, 133);
+        border: none;
+        border-bottom: 2px solid #a4a4a4;
+        box-shadow: none;
+      }
+    }
+    .special-label {
+      display: none;
+    }
+  }
+
+  .MuiFormControl-root {
+    height: 58px;
+    .Mui-focused.Mui-focused {
+      color: var(--color-secondary)
+    }
+
+    .MuiInput-underline:after {
+      border-bottom-color: var(--color-secondary);
+    }
+  }
+
+  .edit_input_string {
+    display: none;
+  }
+}

@@ -12,6 +12,11 @@
 /build
 
 # misc
+.env
+.firebase
+.firebaserc
+.eslintcache
+.idea
 .DS_Store
 .env.local
 .env.development.local

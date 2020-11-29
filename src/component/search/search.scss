@@ -1,0 +1,19 @@
+.contact_search {
+  margin-bottom: 30px;
+
+  .contact_search_input {
+    width: 100%;
+  }
+
+  .MuiOutlinedInput-root {
+    fieldset {
+      border-color: var(--color-secondary);
+    }
+    &:hover fieldset {
+      border-color: var(--color-secondary);;
+    }
+    &.Mui-focused fieldset {
+      border-color: var(--color-primary);
+    }
+  }
+}

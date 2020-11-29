@@ -6,14 +6,56 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6728426c-05a5-4d90-af9d-78cae154940e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/edit/Edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/edit/edit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/heade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/input/InputEdit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/input/inputEdit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/item/Item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/item/item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/listItem/ListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/listItem/listItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/search/search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/EditPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/contactReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/root.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/y/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +63,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kqJX9AMm1UprWX42UrKhgk2X5W" />
@@ -35,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,7 +108,8 @@
       <workItem from="1606429952221" duration="3677000" />
       <workItem from="1606496303938" duration="22833000" />
       <workItem from="1606575192343" duration="16839000" />
-      <workItem from="1606651809104" duration="33153000" />
+      <workItem from="1606651809104" duration="33641000" />
+      <workItem from="1606690686355" duration="985000" />
     </task>
     <servers />
   </component>
@@ -85,10 +133,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="669" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1606497212300" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1606691673141">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606691673141" />
     <state x="548" y="240" key="EditFileWatcherDialog" timestamp="1606497284983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="548" y="240" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606497284983" />
+    <state x="687" y="220" key="FileChooserDialogImpl" timestamp="1606690683242">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="687" y="220" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606690683241" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1606691673141">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606691673141" />
     <state x="838" y="334" width="716" height="704" key="find.popup" timestamp="1606664339153">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

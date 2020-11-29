@@ -1,0 +1,28 @@
+.App {
+  margin-top: 10px;
+  text-align: center;
+  .MuiPaper-elevation1 {
+    position: relative;
+    height: 95vh;
+    box-shadow: none;
+    border: 1px solid var(--color-primary);;
+    border-radius: 25px;
+    .MuiCardContent-root {
+      padding: 0;
+      h1 {
+        color: var(--color-secondary);
+      }
+      .contact {
+        padding: 0 16px;
+      }
+    }
+  }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
